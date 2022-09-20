@@ -2,9 +2,8 @@ import React from "react";
 
 function Movie({movie}){
     const {genres} = movie
-    console.log(genres)
     const genreList = genres.map((genre) => {
-        return <li>{genre}</li>
+        return <li key={genre}>{genre}</li>
     })
 
     return (

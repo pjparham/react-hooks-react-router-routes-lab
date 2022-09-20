@@ -14,7 +14,7 @@ function NavBar() {
   };
 
   return(
-    <div>
+    <div className="navbar">
       <NavLink style={linkStyles} to="/" exact>Home</NavLink>
       <NavLink style={linkStyles} to="/movies">Movies</NavLink>
       <NavLink style={linkStyles} to="/directors">Directors</NavLink>
